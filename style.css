@@ -1,0 +1,31 @@
+body{
+    background-image: url('zdjecie.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.top{
+    background: #db5050c7;
+    border: 3px solid #000000;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+
+.naglowek{
+    background: #db5050c2;
+    border: 3px solid #000000;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+.tekst{
+    font-size: 38 px;
+    text-align: center;
+}
