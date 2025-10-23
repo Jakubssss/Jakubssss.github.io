@@ -37,7 +37,7 @@ h2
     animation-duration: 2s;
     animation-iteration-count: infinite;
      margin: auto;
-    width: 900px;
+    width: 10000px;
     list-style-type: circle;
     word-break: keep-all;
     position: center;
@@ -86,11 +86,12 @@ h2
 /*div
 {
     margin: auto;
-    width: 10000px;
+    width: 900px;
     list-style-type: circle;
     word-break: keep-all;
     position: center;
     text-align: center;
 }
 */
+
 
