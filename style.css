@@ -1,99 +1,69 @@
- font-family: Arial;
-    background-image: url("https://wallpaperaccess.com/full/1924507.jpg");
-    margin-left: 30;
-}
-
-
-h1
+body
 {
-    color: black;
-    text-shadow: yellow;
-    font-size: 50px;
-    text-align: center;
+    background-image:url("swiss-mountains.png");
+    font-style:bold;
+    color:white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-h2
+.c-tabela 
 {
-    border: solid;
-    border-radius: 20px;
-    border-block-start-color: rgb(80, 17, 151);
-    text-align: center;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:800px;  
+  border-collapse: collapse; 
+  -webkit-box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
+  box-shadow: -1px 16px 24px 13px rgba(0, 0, 0, 1);
 }
 
-@keyframes example {
-    0%   {background-color: yellow;}
-    25%  {background-color: yellowgreen;}
-    50%  {background-color: orange;}
-    75%  {background-color: purple;}
-    100% {background-color: yellow;}
-  }
-  
-
- div {
-    
-    background-color: red;
-    animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-     margin: auto;
-    width: 900px;
-    list-style-type: circle;
-    word-break: keep-all;
-    position: center;
-    text-align: center;
-}
-
-
-/*@keyframes pyton {
-    0%  {left:0px; top:-100px;}
-    25% {left:700px; top:-100px;}
-    50% {left:700px; top:-750px;}
-    75% {left:0px; top:-750px;}
-    100% {left:0px; top:-100px;}
-    
-  }
-  
-  h4 {
-    width: 100px;
-    height: 100px;
-    position:relative;
-    animation-name: pyton;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
-  }
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-    
-  }
-  
-  h5 {
-    width: 100px;
-    height: 100px;
-    position:relative;
-    animation-name: spin;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-  }
-  */
-/*div
+.c-tabela th
 {
-    margin: auto;
-    width: 900px;
-    list-style-type: circle;
-    word-break: keep-all;
-    position: center;
-    text-align: center;
+	padding:20px;
+	font-size:28px;
+	color:#D6D6D6;
+	background-color:#162955;
 }
-*/
 
+.c-tabela td:nth-child(1) {  
+  width:300px;
+  text-align:left;
+  vertical-align: top;
+  font-size: 26px;
+  font-weight:600;
+  background-color:#2E4172;
+  padding:20px;
+}
 
-
-
+.c-tabela td:nth-child(2) {  
+  text-align:left;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight:600;
+  background-color:#4F628E;
+  padding:20px;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:17px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:20px 47px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
